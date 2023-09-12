@@ -27,7 +27,7 @@
             <div class="header-text">
                 <h1>Hi,<br/>
                     I'm <span>Shreyas</span>Birru</h1>
-                <p>Web Developer</p>
+                <p><span id="element"></span></p>
             </div>
 
         </div>
@@ -179,6 +179,12 @@ new technologies and Application.</p>
             })
             .catch(error => console.error('Error!', error.message))
         })
+      </script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Web</i> Developer', '&amp; <i>Android</i> Developer.'],
+          typeSpeed: 50,
+        });
       </script>
 </body>
 </html>
