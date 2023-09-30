@@ -318,12 +318,12 @@ form .btn2{
         background:black;
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 140%;
+        font-size: 19px;
 
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 35px;
     }
     nav .fas{
         display: block;
