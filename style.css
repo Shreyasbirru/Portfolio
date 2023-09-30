@@ -302,9 +302,10 @@ form .btn2{
 @media only screen and (max-width: 600px){
     
     .update{
-        width: 50vw;
+        width: 62vw;
         height: 32vh;
         top: 12%;
+        right:26%;
     }
     #symbole1,#symbole2{
         display: block;
