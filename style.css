@@ -61,7 +61,9 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
-
+}
+#symbole1, #symbole2{
+    display: none;
 }
 .header-text{
     margin-top: 20%;
@@ -296,17 +298,23 @@ form .btn2{
 }
 
 /* -------------------------------css for small screens---------------------- */
-nav .fas{
-    display: none;
-}
+
 @media only screen and (max-width: 600px){
     
     .update{
-        display: none;
+        width: 50vw;
+        height: 32vh;
+        top: 12%;
+    }
+    #symbole1,#symbole2{
+        display: block;
+    }
+    #symbole2{
+        position: relative;
+        left: 84%;
     }
     #header{
         background:black;
-
     }
     .header-text{
         margin-top: 100%;
@@ -319,7 +327,6 @@ nav .fas{
     nav .fas{
         display: block;
         font-size: 25px;
-
     }
     nav ul{
         background: #ff004f;
